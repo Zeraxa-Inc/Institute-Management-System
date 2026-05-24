@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'pti.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "mydatabase",
-        "USER": "mydatabaseuser",
-        "PASSWORD": "mypassword",
+        "NAME": "pti_db",
+        "USER": "pti",
+        "PASSWORD": "PTI@ims44",
         "HOST": "127.0.0.1",
         "PORT": "3306",
     }
